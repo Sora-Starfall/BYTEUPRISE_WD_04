@@ -1,0 +1,75 @@
+body {
+    background: #b1b1b1;
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('t4b.jpg');
+    background-size: cover;
+    letter-spacing: 4px;
+}
+
+#weather-container {
+    background: rgba(20, 20, 20, 0.2);
+    width: 800px;
+    padding: 28px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    text-align: center;
+}
+
+#weather-container h2{
+    font-size: 40px;
+
+}
+
+h2, label, p {
+    color: #fff;
+    margin: 8px 0;
+}
+
+input {
+    width: 500px;
+    padding: 16px;
+    margin-top: 20px;
+}
+
+button {
+    background: #4e4e4e;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 200px;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #999999;
+}
+
+#temp-div p {
+    font-size: 55px;
+    margin-top: -30px;
+}
+
+#weather-info {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#weather-icon {
+    background-color: #fff;
+    width: 160px;
+    height: 160px;
+    margin: 28px auto 10px; 
+    margin-bottom: 28px;
+    display: none;
+    border-radius: 50%;
+}
+
